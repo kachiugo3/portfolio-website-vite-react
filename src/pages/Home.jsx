@@ -1,19 +1,26 @@
 import {
   FaBehance,
+  FaCss3,
+  FaCss3Alt,
   FaFacebook,
   FaGithub,
   FaLinkedin,
+  FaNodeJs,
+  FaReact,
   FaTwitter,
 } from "react-icons/fa6";
 import aboutImg from "../assets/about-img.jpeg";
 import heroImg from "../assets/hero-img.jpeg";
-import proj1 from "../assets/project-1.jpeg";
-import proj2 from "../assets/project-2.jpeg";
-import proj3 from "../assets/project-3.jpeg";
-import proj4 from "../assets/project-4.jpeg";
+import proj1 from "../assets/portfolio.png";
+import proj2 from "../assets/kaoshi.png";
+import proj3 from "../assets/dimpact.png";
+import proj4 from "../assets/ecomm.png";
 import video from "../assets/connect.mp4";
 import { Link } from "react-router-dom";
 import { blog } from "../utils/data";
+import { FaHtml5 } from "react-icons/fa6";
+import { BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 
 const featured = blog.filter((post) => post.featured === true);
 
@@ -172,45 +179,45 @@ const Home = () => {
           </p>
         </div>
         <div className="section-center projects-center">
-          <a href="projects.html" className="project-1">
+          <Link to="/projects" className="project-1">
             <article className="project">
               <img src={proj1} alt="single project" className="project-img" />
               <div className="project-info">
-                <h4>project title</h4>
-                <p>client name</p>
+                <h4>Portfolio Website</h4>
+                <p>Kachi Ugo</p>
               </div>
             </article>
-          </a>
+          </Link>
 
-          <a href="projects.html" className="project-2">
+          <Link to="/projects" className="project-2">
             <article className="project">
               <img src={proj2} alt="single project" className="project-img" />
               <div className="project-info">
-                <h4>project title</h4>
-                <p>client name</p>
+                <h4>Fintech Web App</h4>
+                <p>Kaoshi Inc.</p>
               </div>
             </article>
-          </a>
+          </Link>
 
-          <a href="projects.html" className="project-3">
+          <Link to="/projects" className="project-3">
             <article className="project">
               <img src={proj3} alt="single project" className="project-img" />
               <div className="project-info">
-                <h4>project title</h4>
-                <p>client name</p>
+                <h4>Product Landing Page</h4>
+                <p>Diaspora Impact Inc.</p>
               </div>
             </article>
-          </a>
+          </Link>
 
-          <a href="projects.html" className="project-4">
+          <Link to="/projects" className="project-4">
             <article className="project">
               <img src={proj4} alt="single project" className="project-img" />
               <div className="project-info">
-                <h4>project title</h4>
-                <p>client name</p>
+                <h4>E-Commerce Store</h4>
+                <p>Scarlet Thread LLC</p>
               </div>
             </article>
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -254,26 +261,23 @@ const Home = () => {
             <h3>front end</h3>
 
             <div className="skill">
-              <p>HTML/CSS</p>
-              <div className="skill-container">
-                <div className="skill-value"></div>
-                <p className="skill-text">50%</p>
+              <p>HTML 5</p>
+              <div className="skill-icon">
+                <FaHtml5 />
               </div>
             </div>
 
             <div className="skill">
-              <p>Javascript</p>
-              <div className="skill-container">
-                <div className="skill-value value-70"></div>
-                <p className="skill-text skill-text-70">70%</p>
+              <p>CSS 3</p>
+              <div className="skill-icon">
+                <FaCss3Alt />
               </div>
             </div>
 
             <div className="skill">
               <p>React</p>
-              <div className="skill-container">
-                <div className="skill-value value-80"></div>
-                <p className="skill-text skill-text-80">80%</p>
+              <div className="skill-icon">
+                <FaReact />
               </div>
             </div>
           </article>
@@ -282,25 +286,22 @@ const Home = () => {
 
             <div className="skill">
               <p>Node</p>
-              <div className="skill-container">
-                <div className="skill-value"></div>
-                <p className="skill-text">50%</p>
+              <div className="skill-icon">
+                <FaNodeJs />
               </div>
             </div>
 
             <div className="skill">
               <p>Mongose DB</p>
-              <div className="skill-container">
-                <div className="skill-value value-70"></div>
-                <p className="skill-text skill-text-70">70%</p>
+              <div className="skill-icon">
+                <BiLogoMongodb />
               </div>
             </div>
 
             <div className="skill">
               <p>Express JS</p>
-              <div className="skill-container">
-                <div className="skill-value value-80"></div>
-                <p className="skill-text skill-text-80">80%</p>
+              <div className="skill-icon">
+                <SiExpress />
               </div>
             </div>
           </article>
@@ -315,42 +316,53 @@ const Home = () => {
 
         <div className="section-center timeline-center">
           <article className="timeline-item">
-            <h4>2020</h4>
+            <h4>2023</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-              dolor esse, alias velit ea commodi ipsum sit nihil saepe quas!
+              Since July, I've been making meaningful contributions as a
+              Full-Stack Developer at Diaspora Impact Inc., a US NGO.
+              Collaborating on diverse projects, I'm leveraging my expertise to
+              create positive impacts through technology while staying attuned
+              to the industry's latest trends. Feel free to modify these
+              statements to best match your experiences and accomplishments at
+              each of these roles.
             </p>
             <span className="number">1</span>
           </article>
 
           <article className="timeline-item">
-            <h4>2019</h4>
+            <h4>2022</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-              dolor esse, alias velit ea commodi ipsum sit nihil saepe quas!
+              Took a significant step forward by embracing a Full-Stack
+              Developer role with CoTrust, a fintech company, in April. This
+              role allowed me to bridge the gap between front-end finesse and
+              back-end robustness, expanding my capabilities and impact.
             </p>
             <span className="number">2</span>
           </article>
 
           <article className="timeline-item">
-            <h4>2018</h4>
+            <h4>2021</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-              dolor esse, alias velit ea commodi ipsum sit nihil saepe quas!
+              Continued to nurture my skills, mastering front-end technologies
+              and crafting seamless user experiences. My dedication to clean,
+              reusable code began to shine through as I contributed to Kaoshi's
+              innovative projects.
             </p>
             <span className="number">3</span>
           </article>
 
           <article className="timeline-item">
-            <h4>2017</h4>
+            <h4>2020</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-              dolor esse, alias velit ea commodi ipsum sit nihil saepe quas!
+              Embarked on my web development journey, quickly progressing to
+              secure my first tech role as a Front-End Developer with Kaoshi, a
+              fintech company, in September. This marked my official entry into
+              the world of professional development.
             </p>
             <span className="number">4</span>
           </article>
 
-          <article className="timeline-item">
+          {/* <article className="timeline-item">
             <h4>2016</h4>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
@@ -366,7 +378,7 @@ const Home = () => {
               dolor esse, alias velit ea commodi ipsum sit nihil saepe quas!
             </p>
             <span className="number">6</span>
-          </article>
+          </article> */}
         </div>
       </section>
 
