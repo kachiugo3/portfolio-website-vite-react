@@ -48,8 +48,8 @@ export const blog = [
     featured: true,
     dateReleased: "15 July, 2023",
     readTime: "10 Min Read",
-    authorImage: "./src/assets/hero-img-small.jpeg",
-    featureImage: "./src/assets/project-1.jpeg",
+    authorImage: "../src/assets/hero-img-small.jpeg",
+    featureImage: "../src/assets/project-1.jpeg",
   },
   {
     id: "blog03",
@@ -99,8 +99,8 @@ export const blog = [
     featured: false,
     dateReleased: "10 July, 2023",
     readTime: "5 Min Read",
-    authorImage: "./src/assets/hero-img-small.jpeg",
-    featureImage: "./src/assets/project-2.jpeg",
+    authorImage: "../src/assets/hero-img-small.jpeg",
+    featureImage: "../src/assets/project-2.jpeg",
   },
   {
     id: "blog02",
@@ -145,8 +145,8 @@ export const blog = [
     featured: true,
     dateReleased: "05 July, 2023",
     readTime: "3 Min Read",
-    authorImage: "./src/assets/hero-img-small.jpeg",
-    featureImage: "./src/assets/project-3.jpeg",
+    authorImage: "../src/assets/hero-img-small.jpeg",
+    featureImage: "../src/assets/project-3.jpeg",
   },
   {
     id: "blog01",
@@ -192,7 +192,7 @@ export const blog = [
     featured: true,
     dateReleased: "01 July, 2023",
     readTime: "7 Min Read",
-    authorImage: "./src/assets/hero-img-small.jpeg",
-    featureImage: "./src/assets/project-4.jpeg",
+    authorImage: "../src/assets/hero-img-small.jpeg",
+    featureImage: "../src/assets/project-4.jpeg",
   },
 ];
