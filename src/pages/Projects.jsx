@@ -76,7 +76,7 @@ const Projects = () => {
               </p>
               <div className="project-footer">
                 <span>
-                  <FaGithub />
+                  <FaLink />
                 </span>
                 <a href="https://www.diasporaimpact.org/">Live Site</a>
               </div>
@@ -93,13 +93,12 @@ const Projects = () => {
             <div className="project-details">
               <h4>E-Commerce Store</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Corrupti vero praesentium porro iste fugit atque quas adipisci
-                ipsum aliquid eos!
+                With a wide variety of faith inspired products, our mission is
+                to spread the Good News about Jesus Christ...
               </p>
               <div className="project-footer">
                 <span>
-                  <FaGithub />
+                  <FaLink />
                 </span>
                 <a href="https://www.christaloneprints.com">Live Site</a>
               </div>
