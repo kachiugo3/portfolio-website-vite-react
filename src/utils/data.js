@@ -1,3 +1,9 @@
+import img1 from "../assets/project-1.jpg";
+import img2 from "../assets/project-2.jpg";
+import img3 from "../assets/project-3.jpg";
+import img4 from "../assets/project-4.jpg";
+import img0 from "../assets/hero-img-small.jpg";
+
 export const blog = [
   {
     id: "blog04",
@@ -48,8 +54,8 @@ export const blog = [
     featured: true,
     dateReleased: "15 July, 2023",
     readTime: "10 Min Read",
-    authorImage: "../src/assets/hero-img-small.jpg",
-    featureImage: "../src/assets/project-1.jpg",
+    authorImage: img0,
+    featureImage: img1,
   },
   {
     id: "blog03",
@@ -99,8 +105,8 @@ export const blog = [
     featured: false,
     dateReleased: "10 July, 2023",
     readTime: "5 Min Read",
-    authorImage: "../src/assets/hero-img-small.jpg",
-    featureImage: "../src/assets/project-2.jpg",
+    authorImage: img0,
+    featureImage: img2,
   },
   {
     id: "blog02",
@@ -145,8 +151,8 @@ export const blog = [
     featured: true,
     dateReleased: "05 July, 2023",
     readTime: "3 Min Read",
-    authorImage: "../src/assets/hero-img-small.jpg",
-    featureImage: "../src/assets/project-3.jpg",
+    authorImage: img0,
+    featureImage: img3,
   },
   {
     id: "blog01",
@@ -192,7 +198,7 @@ export const blog = [
     featured: true,
     dateReleased: "01 July, 2023",
     readTime: "7 Min Read",
-    authorImage: "../src/assets/hero-img-small.jpg",
-    featureImage: "../src/assets/project-4.jpg",
+    authorImage: img0,
+    featureImage: img4,
   },
 ];
